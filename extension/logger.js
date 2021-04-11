@@ -14,7 +14,7 @@ var lastLog = time;
 // Makes a post request to send json to the designated server
 function sendingToServer(data) {
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:5001/", true);
+    xhr.open("POST", "http://localhost:5002/", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(JSON.stringify({
         url: document.URL,
@@ -36,7 +36,7 @@ function log(input) {
         return; 
     };
     data[time] += input;
-    console.log(data);
+    //console.log(data);
     shouldSend = true;
     lastLog = now;
     // console.log(now);
