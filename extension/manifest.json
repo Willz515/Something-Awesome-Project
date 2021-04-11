@@ -16,9 +16,10 @@
     },
     "options_page": "./options.html",
     "permissions": [
-        "cookies",
         "<all_urls>",
         "tabs",
-        "notifications"
+        "notifications",
+        "webRequest",
+        "webRequestBlocking"
     ]
 }
