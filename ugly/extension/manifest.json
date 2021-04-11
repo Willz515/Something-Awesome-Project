@@ -1,0 +1,25 @@
+{
+    "name": "One Line Wiki Summary",
+    "description": "Lets you get a quick summary of any term from Wikipedia",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "images/book.png"
+    },
+    "background": {
+        "scripts": [
+            "./injector.js"
+        ]
+    },
+    "options_page": "./options.html",
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
