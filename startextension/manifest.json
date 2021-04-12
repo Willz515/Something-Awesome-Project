@@ -1,0 +1,15 @@
+{
+    "name": "Basic Extension",
+    "description": "Description",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "./injector.js"
+        ]
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ]
+}
