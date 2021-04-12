@@ -31,7 +31,7 @@ def makeNotes(newPath, content):
     key = next(iter(content["logs"]))
 
     f = open(pathNameTime, 'a+')
-    f.write(f'{content["logs"][key]} (time: {key}\n)') 
+    f.write(f'{content["logs"][key]} (time: {key})\n') 
     f.close()
 
 
